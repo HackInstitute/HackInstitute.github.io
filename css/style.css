@@ -277,11 +277,11 @@ h1.logo {
 	display: block;
 	visibility: hidden;
 	background-color: #fff;
-	min-width: 10em;
+	min-width: 22em;
 	border: 1px solid rgba(0,0,0,0.2);
 	border-top: none;
 	position: absolute;
-	left: -0.5em;
+	left: -7.5em;
 	padding: 0;
 	text-align: left;
 	list-style-type: none;
