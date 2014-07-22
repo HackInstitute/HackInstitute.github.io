@@ -36,6 +36,7 @@ function initialize() {
     title:"Aarhus"
   }); 
 }
+
 function calcRoute() {
   // get the travelmode, startpoint and via point from the form   
   var travelMode = $('input[name="travelMode"]:checked').val();
