@@ -68,7 +68,7 @@ $(document).ready(function() {
 	$('#schedule .nav-tabs li span.arrow').hide();
 	
 // Counter
-	var endDate = "June 7, 2017 15:03:25";
+	var endDate = "September 5, 2014 18:00:00";
         $('.countdown.styled').countdown({
           date: endDate,
           render: function(data) {
