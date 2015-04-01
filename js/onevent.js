@@ -68,7 +68,7 @@ $(document).ready(function() {
 	$('#schedule .nav-tabs li span.arrow').hide();
 	
 // Counter
-	var endDate = "March 5, 2015 02:00:00";
+	var endDate = "May 30, 2015 10:00:00";
         $('.countdown.styled').countdown({
           date: endDate,
           render: function(data) {
