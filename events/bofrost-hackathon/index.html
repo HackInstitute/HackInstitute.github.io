@@ -88,9 +88,9 @@
                     <li>
                         <a class="page-scroll" href="#download">Tickets</a>
                     </li>
-                    <!--<li>
+                    <li>
                         <a class="page-scroll" href="#challenge">Challenge</a>
-                    </li>-->
+                    </li>
                     <li>
                         <a class="page-scroll" href="#contact">Kontakt</a>
                     </li>
@@ -126,7 +126,19 @@
                 <p>bofrost* gehört zu den deutschen Traditionsunternehmen, die vom Pioniergeist und einer außergewöhnlichen Idee getragen werden: Vor 50 Jahren erkannte Josef H. Boquoi als Erster das Potenzial von Tiefkühlkost und Eiscreme und hat mit der Direktbelieferung von Kunden ein großes Unternehmen aufgebaut. Heute schätzen mehr als 4 Millionen Kunden in 13 Ländern die Qualität und den Service von bofrost*.</p>
                 <p>Nun ist dein Pioniergeist gefragt: Wie sollte ein moderner Tiefkühl-Lieferdienst aussehen? Welche Online-Dienste könnten den Service revolutionieren? Wie kann Direktvertrieb in einer digitalen Welt eingesetzt werden?</p>
                 <p>Pitche deine Idee, finde ein Team und baue ein Wochenende lang einen ersten Prototypen oder Geschäftsmodell. Die besten Projekte erhalten tolle Preise und werden von bofrost* direkt unterstützt.</p>
-                <p>Das ist deine Chance, ein eigenes erfolgreiches Unternehmen zu starten vom 21.-23.04.in Köln!</p>
+                <p>
+                    <ul>
+                        <li>1. Preis: 3000€ und Gutscheine für das ganze Team</li>
+                        <li>2. Preis: 2000€ und Gutscheine für das ganze Team</li>
+                        <li>3. Preis: 1000€ und Gutscheine für das ganze Team</li>
+                    </ul>
+                </p>
+                <p>Der Hackathon findet vom 21.-23.04.in Köln statt in <a href="http://www.theview-cologne.de/die_sicht">The View</a>.<br /> Los geht es Freitags um 18:00 Uhr!</p>
+                <p>Das ist deine Chance, ein eigenes erfolgreiches Unternehmen zu starten!</p>
+
+                <a href="#download" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                </a>
             </div>
         </div>
     </section>
@@ -142,26 +154,34 @@
                     <div style="width:100%; text-align:left;"><iframe src="//eventbrite.de/tickets-external?eid=32980404277&ref=etckt" frameborder="0" height="445" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe></div>
 
                     </p>
+
+                    <a href="#challenge" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                    </a>
+
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Challenge Section -->
-    <!-- <section id="challenge" class="content-section text-center">
+
+    <section id="challenge" class="content-section text-center">
         <div class="downdfload-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Challenge</h2>
-                    <p>Nimm an der bofrost* Challenge teil und gewinne einen bofrost*Einkauf im Wert von 100€, 300€ oder 500€. Unter allen Teilnehmern die eine bofrost*Idee für den Amazon Echo (Alexa) submitten verlosen wir zusätzlich ein Amazon Tap im Wert von 130€. </p>
+                    <p>Nimm an der bofrost* Challenge teil und gewinne einen von 5 bofrost* Einkaufsgutscheinen im Wert von 50€. Unter allen Teilnehmern die eine bofrost*Idee für den Amazon Echo (Alexa) einreichen verlosen wir zusätzlich ein Amazon Tap im Wert von 130€. </p>
                     </div>
                         <p>
                            <div class="typeform-widget" data-url="https://hackersthinkers.typeform.com/to/xQ32qC" style="width: 100%; height: 500px;"></div><script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id="typef_orm",b="https://s3-eu-west-1.amazonaws.com/share.typeform.com/";if(!gi.call(d,id)){js=ce.call(d,"script");js.id=id;js.src=b+"widget.js";q=gt.call(d,"script")[0];q.parentNode.insertBefore(js,q)}})()</script>
                     </p>
+                    <a href="#contact" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                    </a>
                 </div>
             </div>
         </div>
-    </section>-->
+    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
@@ -186,6 +206,9 @@
         </div>
     </section>
 
+    <!-- Map Section -->
+    <div id="map"></div>
+
     <!-- Footer -->
     <footer>
         <div class="container text-center">
@@ -202,8 +225,11 @@
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCUCbBXyucX1apyb-c6xU7tkBg_VTwgCU&callback=initMap"></script>
+
     <!-- Theme JavaScript -->
-    <script src="js/grayscale.min.js"></script>
+    <script src="js/grayscale.js"></script>
 
 </body>
 
